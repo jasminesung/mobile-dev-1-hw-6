@@ -106,13 +106,11 @@
 				E1F674082B82E02E00F32714 /* Model */,
 				E1F673D72B82DC6700F32714 /* AppDelegate.swift */,
 				E1F673D92B82DC6700F32714 /* SceneDelegate.swift */,
-				E1F673DB2B82DC6700F32714 /* ViewController.swift */,
 				E1F674072B82DD2600F32714 /* View */,
 				E1F673DD2B82DC6700F32714 /* Main.storyboard */,
 				E1F673E02B82DC6900F32714 /* Assets.xcassets */,
 				E1F673E22B82DC6900F32714 /* LaunchScreen.storyboard */,
 				E1F673E52B82DC6900F32714 /* Info.plist */,
-				E1F6740B2B82E0F200F32714 /* ResultViewController.swift */,
 			);
 			path = CurrencyConverterUpdated;
 			sourceTree = "<group>";
@@ -137,6 +135,8 @@
 		E1F674072B82DD2600F32714 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E1F673DB2B82DC6700F32714 /* ViewController.swift */,
+				E1F6740B2B82E0F200F32714 /* ResultViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
