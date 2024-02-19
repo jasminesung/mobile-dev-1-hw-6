@@ -16,6 +16,8 @@
 		E1F673EF2B82DC6900F32714 /* CurrencyConverterUpdatedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F673EE2B82DC6900F32714 /* CurrencyConverterUpdatedTests.swift */; };
 		E1F673F92B82DC6900F32714 /* CurrencyConverterUpdatedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F673F82B82DC6900F32714 /* CurrencyConverterUpdatedUITests.swift */; };
 		E1F673FB2B82DC6900F32714 /* CurrencyConverterUpdatedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F673FA2B82DC6900F32714 /* CurrencyConverterUpdatedUITestsLaunchTests.swift */; };
+		E1F6740A2B82E03C00F32714 /* ConverterLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F674092B82E03C00F32714 /* ConverterLogic.swift */; };
+		E1F6740C2B82E0F200F32714 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6740B2B82E0F200F32714 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E1F673F42B82DC6900F32714 /* CurrencyConverterUpdatedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConverterUpdatedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F673F82B82DC6900F32714 /* CurrencyConverterUpdatedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterUpdatedUITests.swift; sourceTree = "<group>"; };
 		E1F673FA2B82DC6900F32714 /* CurrencyConverterUpdatedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterUpdatedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1F674092B82E03C00F32714 /* ConverterLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterLogic.swift; sourceTree = "<group>"; };
+		E1F6740B2B82E0F200F32714 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,16 @@
 		E1F673D62B82DC6700F32714 /* CurrencyConverterUpdated */ = {
 			isa = PBXGroup;
 			children = (
+				E1F674082B82E02E00F32714 /* Model */,
 				E1F673D72B82DC6700F32714 /* AppDelegate.swift */,
 				E1F673D92B82DC6700F32714 /* SceneDelegate.swift */,
 				E1F673DB2B82DC6700F32714 /* ViewController.swift */,
+				E1F674072B82DD2600F32714 /* View */,
 				E1F673DD2B82DC6700F32714 /* Main.storyboard */,
 				E1F673E02B82DC6900F32714 /* Assets.xcassets */,
 				E1F673E22B82DC6900F32714 /* LaunchScreen.storyboard */,
 				E1F673E52B82DC6900F32714 /* Info.plist */,
+				E1F6740B2B82E0F200F32714 /* ResultViewController.swift */,
 			);
 			path = CurrencyConverterUpdated;
 			sourceTree = "<group>";
@@ -125,6 +132,21 @@
 				E1F673FA2B82DC6900F32714 /* CurrencyConverterUpdatedUITestsLaunchTests.swift */,
 			);
 			path = CurrencyConverterUpdatedUITests;
+			sourceTree = "<group>";
+		};
+		E1F674072B82DD2600F32714 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1F674082B82E02E00F32714 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1F674092B82E03C00F32714 /* ConverterLogic.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F6740C2B82E0F200F32714 /* ResultViewController.swift in Sources */,
 				E1F673DC2B82DC6700F32714 /* ViewController.swift in Sources */,
+				E1F6740A2B82E03C00F32714 /* ConverterLogic.swift in Sources */,
 				E1F673D82B82DC6700F32714 /* AppDelegate.swift in Sources */,
 				E1F673DA2B82DC6700F32714 /* SceneDelegate.swift in Sources */,
 			);
